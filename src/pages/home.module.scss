@@ -4,7 +4,7 @@
     overflow-y: scroll;
 
     h2{
-        margin-top: 3rem;
+        margin-top: 2rem;
         margin-bottom: 1.5rem;
     }
 }
@@ -32,6 +32,7 @@
                 border-radius: 1rem;
             }
 
+
             .episodeDetails{
                 flex: 1;
                 margin-left: 1rem;  
@@ -41,9 +42,11 @@
                 display: block;
                 color: var(--gray-800);
                 font-family: Lexend, sans-serif;
-                font-weight: 6000;
+                font-weight: 600;
                 text-decoration: none;
                 line-height: 1.4rem;
+                
+                
 
                 &:hover{
                     text-decoration: underline;
@@ -52,6 +55,7 @@
 
             p {
                 font-size:0.875rem;
+                
                 margin-top:0.5rem;
                 max-width:70%;
                 white-space:nowrap;
@@ -63,6 +67,7 @@
                 display: inline-block;
                 margin-top: 0.5rem;
                 font-size:0.875rem;
+                
             
                 &:last-child{
                     margin-left: 0.5rem;
@@ -99,7 +104,7 @@
                 transition: filter 0.95s;
 
                 img{
-                    width:1.5rem;
+                    width: 1.5rem;
                     height:1.5rem;
                 }
             
@@ -126,7 +131,7 @@
         }
 
         th{
-            color: var(--gray-100);
+            color: var(--gray-200);
             text-transform: uppercase;
             font: 500 0.75rem Lexend, sans-serif;
             text-align: left;
